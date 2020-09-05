@@ -15,29 +15,35 @@ class App extends Component {
 
   render() {
     return (
-          
           <div>
-          <PersonCard 
-            name="Doe, Jane"
-            age={45}
-            color="Black"
-          />
-          <PersonCard 
-            name="Smith, John"
-            age={88}
-            color="Brown"
-          />
-          <PersonCard 
-            name="Fillmore, Millard"
-            age={50}
-            color="Brown"
-          />
-          <PersonCard 
-            name="Smith, Maria"
-            age={62}
-            color="Brown"
-          />
+            <PersonCard name = "John, Smith" age= {88} hairColor = "Brown"/>
+            <PersonCard name = "Doe, Jane" age= {50} hairColor = "Black"/>
+            <PersonCard name = "Fillmore, Smith" age= {20} hairColor = "Brown"/>
+            <PersonCard name = "John, Smith" age= {8} hairColor = "Brown"/>
           </div>
+          
+          // <div>
+          // <PersonCard 
+          //   name="Doe, Jane"
+          //   age={45}
+          //   color="Black"
+          // />
+          // <PersonCard 
+          //   name="Smith, John"
+          //   age={88}
+          //   color="Brown"
+          // />
+          // <PersonCard 
+          //   name="Fillmore, Millard"
+          //   age={50}
+          //   color="Brown"
+          // />
+          // <PersonCard 
+          //   name="Smith, Maria"
+          //   age={62}
+          //   color="Brown"
+          // />
+          // </div>
       );
   }
 }
